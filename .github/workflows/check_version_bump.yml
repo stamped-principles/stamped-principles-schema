@@ -2,8 +2,8 @@ name: Check version bump
 on:
     pull_request:
         paths:
-            - "stamped-checklist-schema.yaml"
-            - "stamped-checklist.json"
+            - "stamped-principles-schema.yaml"
+            - "stamped-principles.json"
 
 jobs:
     check-version-bump:
@@ -24,8 +24,8 @@ jobs:
 
                   # Each entry: "path|grep-pattern|sed-extract"
                   FILES=(
-                    'stamped-checklist-schema.yaml|^version:|s/version:[[:space:]]*["'\'']\?\([^"'\'' ]*\)["'\'']\?.*/\1/'
-                    'stamped-checklist.json|"version"|s/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/'
+                    'stamped-principles-schema.yaml|^version:|s/version:[[:space:]]*["'\'']\?\([^"'\'' ]*\)["'\'']\?.*/\1/'
+                    'stamped-principles.json|"version"|s/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/'
                   )
 
                   CHANGED_FILES=$(git diff --name-only "origin/$BASE_REF...HEAD")
