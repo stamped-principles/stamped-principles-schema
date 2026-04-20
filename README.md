@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1216371718.svg)](https://doi.org/10.5281/zenodo.19672387)
+
 # STAMPED Principles (Schema)
 
 The formal LinkML schema and instance for the STAMPED principles.
