@@ -14,7 +14,7 @@ prefixes:
   schema: https://schema.org/
   skos: http://www.w3.org/2004/02/skos/core#
   rfc2119: https://datatracker.ietf.org/doc/html/rfc2119
-  stamped: https://github.com/stamped-principles/stamped-principles/
+  stamped: https://github.com/stamped-principles/stamped-principles-schema/
 
 imports:
   - linkml:types
