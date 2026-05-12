@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1216371718.svg)](https://doi.org/10.5281/zenodo.19672387)
+[![DOI](https://img.shields.io/github/v/release/stamped-principles/stamped-principles-schema?label=DOI&color=blue)](https://doi.org/10.5281/zenodo.19672387)
 
 # STAMPED Principles (Schema)
 
