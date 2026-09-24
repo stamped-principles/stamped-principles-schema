@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "principles": [
         {
             "code": "S.1",
@@ -60,6 +60,12 @@
             "category": "modular",
             "level": "may",
             "statement": "Components MAY be included directly or linked as subdatasets."
+        },
+        {
+            "code": "M.4",
+            "category": "modular",
+            "level": "should",
+            "statement": "Components governed by different access requirements SHOULD be isolated in separate modules where practical."
         },
         {
             "code": "P.1",
