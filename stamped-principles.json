@@ -1,11 +1,17 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "principles": [
         {
             "code": "S.1",
             "category": "self_contained",
             "level": "must",
             "statement": "All modules and components essential to replicate computational execution MUST be reachable within a single top-level research object."
+        },
+        {
+            "code": "S.2",
+            "category": "self_contained",
+            "level": "must",
+            "statement": "License declarations for all components are themselves part of the research object and MUST be retrievable alongside the content they govern."
         },
         {
             "code": "T.1",
@@ -47,7 +53,7 @@
             "code": "A.2",
             "category": "actionable",
             "level": "should",
-            "statement": "Procedures SHOULD be specified as executable specifications."
+            "statement": "Procedures SHOULD be expressed as executable specifications."
         },
         {
             "code": "M.1",
@@ -62,6 +68,12 @@
             "statement": "Components MAY be included directly or linked as subdatasets."
         },
         {
+            "code": "M.3",
+            "category": "modular",
+            "level": "should",
+            "statement": "Each module's license SHOULD be declared independently and checked for compatibility at the boundaries where modules are combined."
+        },
+        {
             "code": "M.4",
             "category": "modular",
             "level": "should",
@@ -71,7 +83,7 @@
             "code": "P.1",
             "category": "portable",
             "level": "must",
-            "statement": "Procedures MUST NOT depend on undocumented host environment state."
+            "statement": "Procedures MUST NOT depend on any undocumented host environment state."
         },
         {
             "code": "P.2",
@@ -102,6 +114,12 @@
             "category": "distributable",
             "level": "should",
             "statement": "Environment specifications SHOULD support reproducible builds."
+        },
+        {
+            "code": "D.3",
+            "category": "distributable",
+            "level": "should",
+            "statement": "Each module SHOULD carry an explicit license with a resolvable identifier."
         }
     ]
 }
